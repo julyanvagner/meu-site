@@ -1,0 +1,115 @@
+.turismo-titulo {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
+        
+}
+
+.pontos-turisticos-lista{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 16px;
+    column-gap: 20px;
+    row-gap: 20px;   
+    justify-content: space-between;
+}
+
+.pontos-turisticos{
+    display: grid;
+    max-width: 400px;
+    box-shadow: 1px 1px 3px gray;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto repeat(2, 1fr) auto;
+    grid-template-areas: 
+        "imagem imagem"
+        "nome nome"
+        "cidade  cidade"
+        "local botao";
+}
+
+.pontos-turisticos img{
+    grid-area: imagem;
+}
+
+.pontos-turisticos h3{
+    grid-area: nome;
+    align-self: center;
+}
+
+.pontos-turisticos h4{
+    grid-area: cidade;
+}
+
+.pontos-turisticos h5{
+    grid-area: local;
+    align-self: end;
+}
+
+.pontos-turisticos button{
+    grid-area: botao;
+}
+
+
+
+.pontos-turisticos {
+    background-color: var(--cinza-claro);
+    width: 307px;
+    padding-bottom: 16px;
+    height: 318px;
+}
+
+.pontos-turisticos img {
+    width: 100%;
+}
+
+.fotos {
+    width: 300px;
+    height: 200px;
+}
+
+.pontos-turisticos h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.pontos-turisticos h4,
+.pontos-turisticos h5 {
+    font-size: 16px;
+}
+
+.pontos-turisticos h3,
+.pontos-turisticos h4,
+.pontos-turisticos h5 {
+    padding-left: 16px;
+}
+
+.pontos-turisticos button {
+    outline: none;
+    border: none;
+    background-color: var(--preto);
+    color: var(--branco);
+    margin-right: 16px;
+    text-align: center;
+    padding: 8px 0;
+    width: 80px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.turismo-botao button{
+    border: none;
+    background-color: var(--preto);
+    color: var(--branco);
+    padding: 9px 0;
+    width: 148px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.turismo-botao button:hover,
+.pontos-turisticos button:hover {
+    background-color: var(--vermelho);
+    color: var(--branco);
+}
+
+

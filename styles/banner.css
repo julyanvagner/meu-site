@@ -1,0 +1,38 @@
+.banner {
+    background-image: url('../imagens/marica.jpg');
+    background-size: cover;
+    color: var(--branco);
+    
+}
+
+.tampa{
+    background-color: rgba(11, 11, 11, 0.573);
+    display: flex;
+    color: var(--branco);      
+}
+
+.descricao{
+    width: 70%;
+    text-align: center;
+    margin-right: 80px;
+    margin: 100px 150px 0px 0px;  
+}
+
+h1 {
+    padding-top: 4px;
+    margin-bottom: 20px;
+    font-size: 38px; 
+    
+}
+
+.descricao h4{
+    font-size: 20px;
+}
+
+.descricao >  p {
+    width: 550px;
+    text-align: center;
+    font-size: 16px;
+    margin: 5px auto;
+}
+

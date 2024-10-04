@@ -1,0 +1,19 @@
+.beneficios {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.beneficios h2 {
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.itens {
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+}
+
+.itens img {
+    width: 50px;
+}

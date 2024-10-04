@@ -1,0 +1,93 @@
+.form{      
+    width: 30%;
+    padding: 20px;
+}
+
+.cadastro{
+    background-color: rgba(0, 0, 0, 0.493);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 16px;
+}
+
+.cadastro h2 {   
+    margin: 8px;
+}
+
+.form > .cadastro > a {
+    color: var(--branco);
+    align-self: center;
+    padding-bottom: 15px;
+    
+}
+
+.form > .cadastro > a:hover {
+    text-decoration: underline;
+    color: var(--azul);
+    transition: 0.5s;
+}
+
+.caixa-formulario{
+    margin-left: 16px;
+}
+
+.barra-pesquisa{
+    width: 90%;
+    border-radius: 10px;
+    margin-top: 5px;
+    padding: 8px;
+}
+
+#email::placeholder{
+    background: url(../imagens/o-email.png) no-repeat var(--branco);
+    background-position: 1px; 
+    opacity: 0.5;
+    padding: 30px;
+    
+
+}
+
+#usuario::placeholder {
+    background: url(../imagens/usuario.png) no-repeat var(--branco) ;
+    background-position: 1px;
+    opacity: 0.5;
+    padding: 30px;
+}
+
+#senha::placeholder{
+    background: url(../imagens/chave.png) no-repeat var(--branco) ;
+    background-position: 1px;
+    opacity: 0.5;
+    padding: 30px;
+    
+}
+
+#telefone::placeholder{
+    background: url(../imagens/telefone.png) no-repeat var(--branco) ;
+    background-position: 1px;
+    opacity: 0.5;
+    padding: 30px;
+
+}
+
+.botao-formulario{
+    align-self: center;
+    
+}
+
+.botao-registro{
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: var(--azul);
+    color: var(--branco);
+}
+
+.botao-registro:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
